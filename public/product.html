@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            padding: 5rem 5rem 10rem;
+            line-height: 1.7;
+            font-family: "Montserrat", sans-serif;
+            color: #111111;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #5e5e5e;
+        }
+
+        .product {
+            margin-top: 40px;
+            text-align: center;
+            position: relative;
+
+        }
+
+        .product__hero {
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+
+        }
+
+        .product__emoji {
+            margin-right: 5px;
+        }
+
+        .product__name {
+            color: #5e5e5e;
+            margin-bottom: 10px;
+        }
+
+        .product__details {
+            margin-bottom: 20px;
+        }
+
+        .product__details p {
+            margin: 5px 0;
+        }
+
+        .product__link {
+            background-color: #5e5e5e;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.2s;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+        }
+
+        .product__link:hover {
+            background-color: black;
+            color: #ffffff;
+        }
+
+        .product__description {
+            line-height: 1.6;
+            margin-top: 20px;
+        }
+
+        .product__back {
+            position: absolute;
+            top: -70px;
+            left: 0;
+            font-size: 24px;
+            line-height: 1;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Все товары</h1>
+        <figure class="product">
+            <a href="/public/index.html" class="product__back">
+                <span class="emoji-left">🔙</span>
+            </a>
+            <div class="product__hero">
+                <img src="./images/trench.jpg" alt="Trench">
+            </div>
+            <h2 class="product__name"> Тренч</h2>
+            <div class="product__details">
+                <p><span class="emoji-ico">🌍</span>производство Италия</p>
+                <p><span class="emoji-ico">📦</span>Доставка по всему Казахстану</p>
+            </div>
+            <a href="#" class="product__link">
+                <span class="emoji-busket">🛒</span>
+                <span>Добавить в корзину (100 $)</span>
+            </a>
+            <p class="product__description">
+                Тренч — модель дождевого плаща с неизменными атрибутами: двубортный, с погонами и отложным воротником, манжетами, кокеткой, поясом и разрезом сзади.
+            </p>
+        </figure>
+    </div>
+</body>
+</html>

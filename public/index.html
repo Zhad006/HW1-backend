@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+    header, footer {
+    background-color: #5e5e5e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    padding: 20px;
+    color:#5e5e5e;
+}
+
+h1, h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;    
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 18px;
+}
+
+.card__image {
+   float: left;
+   margin: 1rem 4rem 0 0
+}
+
+.card__details {
+            margin-top: 10px;
+        }
+
+.card__detail {
+            margin-bottom: 10px;
+        }
+
+.card__detail--price {
+            color: #5e5e5e;
+        }
+
+.card__link {
+            background-color: #5e5e5e;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.2s;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+        }
+
+        .card__link:hover {
+            background-color: black;
+            color: #ffffff;
+
+        }
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+</style>>
+</head>
+
+<body>
+    <header>
+        <h1>Мир стильной одежды!</h1>
+    </header>
+    <main>
+        <section id="products">
+            <h2>Все товары</h2>
+            <div class="container">
+                <figure class="card">
+                    <div class="card__image">
+                        <img src="./images/trench.jpg" alt="Trench">
+                    </div>
+
+                    <div class="card__details">
+                        <div class="card__detail-box">
+                            <h3 class="card__detail">Тренч</h3>
+                        </div>
+
+                        <div class="card__detail-box">
+                            <h5 class="card__detail">Размеры 42 44 46 48</h5>
+                        </div>
+    
+                        <div class="card__detail-box">
+                            <h5 class="card__detail ">Производство Италия</h5>
+                        </div>
+    
+                        <div class="card__detail-box">
+                            <h5 class="card__detail card__detail--price">100 $</h6>
+    
+                        </div>
+                        <a href="/public/product.html" class="card__link">
+                            <span>Подробнее <i class="emogi-right"> ➛</i></span>
+                        </a>
+                    </div>
+                </figure> 
+
+                <figure class="card">
+                    <div class="card__image">
+                        <img src="./images/jeans.jpg" alt="Jeans">
+                    </div>
+    
+                    <div class="card__details">
+                        <div class="card__detail-box">
+                            <h3 class="card__detail">Брюки</h3>
+                        </div>
+                        <div class="card__detail-box">
+                            <h5 class="card__detail">Размеры 34 36 38 40</h5>
+                        </div>
+    
+                        <div class="card__detail-box">
+                            <h5 class="card__detail ">Производство Турция</h5>
+                        </div>
+    
+                        <div class="card__detail-box">
+                            <h5 class="card__detail card__detail--price">80 $</h5>
+    
+                        </div>
+                        <a href="#" class="card__link">
+                            <span>Подробнее <i class="emogi-right"> ➛</i></span>
+                        </a>
+                    </div>
+                </figure> 
+
+                <figure class="card">
+                    <div class="card__image">
+                        <img src="./images/shirt.jpg" alt="Shirt">
+                    </div>
+   
+                    <div class="card__details">
+                        <div class="card__detail-box">
+                            <h3 class="card__detail">Рубашка</h3>
+                        </div>
+                        <div class="card__detail-box">
+                            <h5 class="card__detail">Размеры 42 44 46 48</h5>
+                        </div>
+    
+                        <div class="card__detail-box">
+                            <h5 class="card__detail ">Производство Турция</h5>
+                        </div>
+    
+                        <div class="card__detail-box">
+                            <h5 class="card__detail card__detail--price">30 $</h5>
+    
+                        </div>
+                        <a href="#" class="card__link">
+                            <span>Подробнее <i class="emogi-right"> ➛</i></span>
+                        </a>
+                    </div>
+                </figure> 
+
+                <figure class="card">
+                    <div class="card__image">
+                        <img src="./images/tshirt.jpg" alt="TShirt">
+                    </div>
+                        
+                    <div class="card__details">
+                        <div class="card__detail-box">
+                            <h3 class="card__detail">Футболка</h3>
+                        </div>
+
+                        <div class="card__detail-box">
+                            <h5 class="card__detail">Размеры 42 44 46 48</h5>
+                        </div>
+    
+                        <div class="card__detail-box">
+                            <h5 class="card__detail ">Производство Россия</h5>
+                        </div>
+    
+                        <div class="card__detail-box">
+                            <h5 class="card__detail card__detail--price">15 $</h5>
+    
+                        </div>
+                        <a href="#" class="card__link">
+                            <span>Подробнее <i class="emogi-right"> ➛</i></span>
+                        </a>
+                    </div>
+                </figure> 
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Все права защищены</p>
+    </footer>
+</html>
